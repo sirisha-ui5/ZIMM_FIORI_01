@@ -1,0 +1,137 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:t="sap.ui.table"
+	controllerName="ZIMM.controller.View3" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Meter Reading Screen" showNavButton="true" navButtonPress="onBack">
+		<content>
+			<f:SimpleForm id="SForm2" class="C_SFROM2" editable="true" layout="ResponsiveGridLayout" labelSpanXL="5" labelSpanL="5" labelSpanM="12"
+				labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="4" columnsL="4" columnsM="2"
+				singleContainerFullSize="false" title="Notification Header">
+				<f:toolbar>
+					<Toolbar id="TB1">
+						<Button id="save" width="100px" text="Save" icon="sap-icon://save" press="onSave"/>
+					</Toolbar>
+				</f:toolbar>
+				<f:content>
+					<Toolbar>
+						<Title text="Header Data"/>
+					</Toolbar>
+					<Label text="{i18n>XTXT_NOTIF}"/>
+					<Input value="{Notification}" enabled="false" width="130px"/>
+					<Label text="Functional Location"/>
+					<Input value="{FLoc}" enabled="false" width="100px"/>
+					<Label text="Equipment"/>
+					<Input value="" enabled="false" width="100px"/>
+					<Toolbar>
+						<Title text=""/>
+					</Toolbar>
+					<Label text="WorkCenter"/>
+					<Input value="{WorkCtr}" enabled="false" width="100px"/>
+					<Label text="Carried Out Date"/>
+					<Input id="Cdate" value="" width="100px"/>
+					<Label text="Carried Out by"/>
+					<Input value="{CreadtedBy}"/>
+					<!--<Input value="{ path: 'CreatedBy', formatter: '.oMyFunc.convertNames' }" width="120px"/>-->
+					<Toolbar>
+						<Title text="Status"/>
+					</Toolbar>
+					<Label text="System Status"/>
+					<Input value="{SysStatus}" enabled="false" width="100px"/>
+					<Label text="User Status"/>
+					<Input value="{UsrStatus}" enabled="false" width="120px"/>
+					<Toolbar>
+						<Title text="Measurement Document Text"/>
+					</Toolbar>
+					<TextArea rows="8" value="{i18n>XTXT_M_DOC}" enabled="false"></TextArea>
+				</f:content>
+			</f:SimpleForm>
+			<t:Table id="Table2" class="Notif_read" rows="{/Notif_inspect}" width="100%" selectionMode="None" selectionBehavior="RowOnly"
+				title="Enter Inspection Readings" rowSelectionChange="onSelect">
+				<t:columns>
+					<t:Column width="150px">
+						<t:label>
+							<Text text="{i18n>XTXT_EQUIPMENT}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{Equipment}"></Text>
+						</t:template>
+					</t:Column >
+					<t:Column width="150px">
+						<t:label>
+							<Text text="{i18n>XTXT_DESC}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{Description}"></Text>
+						</t:template>
+					</t:Column>
+					<t:Column width="130px">
+						<t:label>
+							<Text text="{i18n>XTXT_PREV_R}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{Previous_R}"></Text>
+						</t:template>
+					</t:Column>
+					<t:Column width="150px">
+						<t:label>
+							<Text text="Reading"></Text>
+						</t:label>
+						<t:template>
+							<Input id="read" value="{Reading}" change="Validate_Reading"></Input>
+						</t:template>
+					</t:Column>
+					<t:Column width="150px">
+						<t:label>
+							<Text text="Evaluation"></Text>
+						</t:label>
+						<t:template>
+							<Select selectedKey="{Evaluation}">
+								<core:Item text="" key=""></core:Item>
+								<core:Item text="Failed Inspection" key="Failed Inspection"></core:Item>
+								<core:Item text="Passed Inspection" key="Passed Inspection"></core:Item>
+							</Select>
+						</t:template>
+					</t:Column>
+					<t:Column width="150px">
+						<t:label>
+							<Text text="{i18n>XTXT_MRU}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{MRU}"></Text>
+						</t:template>
+					</t:Column>
+					<t:Column width="130px">
+						<t:label>
+							<Text text="Read by"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{Readby}"></Text>
+						</t:template>
+					</t:Column>
+					<t:Column width="230px">
+						<t:label>
+							<Text text="{i18n>XTXT_MEAS_POS}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{MeasPos}"></Text>
+						</t:template>
+					</t:Column>
+					<t:Column width="130px">
+						<t:label>
+							<Text text="{i18n>XTXT_POS}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{Pos}"></Text>
+						</t:template>
+					</t:Column>
+					<t:Column width="230px">
+						<t:label>
+							<Text text="{i18n>XTXT_MEAS_PT}"></Text>
+						</t:label>
+						<t:template>
+							<Text text="{Meas_Point}"></Text>
+						</t:template>
+					</t:Column>
+				</t:columns>
+			</t:Table>
+		</content>
+	</Page>
+</mvc:View>

@@ -1,0 +1,260 @@
+{
+	"Notif_tab": [
+
+		{
+			"Notification": "000004131428",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "TSB-BER",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131324",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "BDI",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131330",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "CLA",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131332",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "CUM",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131338",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "ELL",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131340",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "ENU",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131350",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "ENU",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131430",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "ENU",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		},
+
+		{
+			"Notification": "000004131444",
+			"Notif_type": "E1",
+			"Description": "STA MONTHLY INSP",
+			"Required_start": "10/16/2018",
+			"Group": "SMIL001",
+			"WorkCtr": "10001382",
+			"FLoc": "ENU",
+			"CreatedBy": "Sirisha",
+			"SysStatus": "OSNO",
+			"UsrStatus": "SCHD"
+
+		}
+
+	],
+
+	"Notif_inspect": [{
+			"Equipment": "GBR3252",
+			"Description": "COUNTER",
+			"Previous_R": 71,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "EA",
+			"Readby": "MDOWNING",
+			"MeasPos": "0020",
+			"Pos": "010",
+			"Meas_Point": "2738866",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR3252",
+			"Description": "FAULT OPS",
+			"Previous_R": 0,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "EA",
+			"Readby": "MDOWNING",
+			"MeasPos": "0030",
+			"Pos": "010",
+			"Meas_Point": "2738867",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR3252",
+			"Description": "GAS PRES TANK1",
+			"Previous_R": 90,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "PSI",
+			"Readby": "MDOWNING",
+			"MeasPos": "0040",
+			"Pos": "010",
+			"Meas_Point": "2738868",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR3253",
+			"Description": "COUNTER",
+			"Previous_R": 55,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "EA",
+			"Readby": "MDOWNING",
+			"MeasPos": "0020",
+			"Pos": "020",
+			"Meas_Point": "2818303",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR3253",
+			"Description": "FAULT OPS",
+			"Previous_R": 0,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "EA",
+			"Readby": "MDOWNING",
+			"MeasPos": "0030",
+			"Pos": "020",
+			"Meas_Point": "2818304",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR3253",
+			"Description": "GAS PRES TANK1",
+			"Previous_R": 85,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "PSI",
+			"Readby": "MDOWNING",
+			"MeasPos": "0040",
+			"Pos": "020",
+			"Meas_Point": "2818305",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR2997",
+			"Description": "COUNTER",
+			"Previous_R": 67,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "EA",
+			"Readby": "MDOWNING",
+			"MeasPos": "0030",
+			"Pos": "030",
+			"Meas_Point": "2682237",
+			"Error_Flag": "N"
+		},
+
+
+		{
+			"Equipment": "GBR2997",
+			"Description": "FAULT OPS",
+			"Previous_R": 0,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "EA",
+			"Readby": "MDOWNING",
+			"MeasPos": "0030",
+			"Pos": "030",
+			"Meas_Point": "2682238",
+			"Error_Flag": "N"
+		},
+
+		{
+			"Equipment": "GBR2997",
+			"Description": "GAS PRES TANK1",
+			"Previous_R": 87,
+			"Reading": 0,
+			"Evaluation": " ",
+			"MRU": "PSI",
+			"Readby": "MDOWNING",
+			"MeasPos": "0040",
+			"Pos": "030",
+			"Meas_Point": "2682239",
+			"Error_Flag": "N"
+		}
+
+	]
+}

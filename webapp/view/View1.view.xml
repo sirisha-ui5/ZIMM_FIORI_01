@@ -1,0 +1,30 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="ZIMM.controller.View1"><Page xmlns="sap.m" title="Main View" class="page1">
+		<content>
+			<VBox class="vbox">
+				<f:SimpleForm xmlns:f="sap.ui.layout.form" title="{i18n>XTXT_SEL_CRITERIA}" id="SForm1" class="SF1" editable="true">
+					<f:content>
+						<Label text="{i18n>XTXT_STATUS}" />
+						<HBox>
+							<CheckBox class="CheckBox" text="{i18n>XCHK_NOTSELECTED}" selected="true" />
+							<CheckBox text="{i18n>XCHK_SELECTED}" />
+						</HBox>
+						<Label text="{i18n>XTXT_MWRKCNTR}" />
+						<ComboBox placeholder="Select WorkCenter" maxWidth="30%">
+							<items>
+								<core:ListItem xmlns:core="sap.ui.core" text="ZCSCPM14" key="key1" />
+								<core:ListItem xmlns:core="sap.ui.core" text="ZCSOKE01" key="key2" />
+								<core:ListItem xmlns:core="sap.ui.core" text="ZCSOKE02" key="key3" />
+							</items>
+						</ComboBox>
+						<Label text="{i18n>XTXT_R_START_DATE}" />
+						<DatePicker id="DP1" placeholder="Select Date" width="300px" valueFormat="dd/MM/yyyy" displayFormat="dd/MM/yyyy" />
+						<Label text="{i18n>XTXT_NOTIF}" textAlign="Left" />
+						<Input id="NOTF" placeholder="Enter Notification Number" width="300px" showValueHelp="true" valueHelpRequest="onF4Help"/>
+						<Label />
+						<Button text="Display Data" width="130px" press="getData" />
+					</f:content>
+				</f:SimpleForm>
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>

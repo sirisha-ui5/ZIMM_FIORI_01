@@ -1,0 +1,61 @@
+.CheckBox {
+    padding-right: 30px;
+}
+
+.SF1 {
+    border: 1px solid black !important;
+    background-color: grey;
+}
+
+.sapUiForm .sapUiFormTitle {
+    color: white !important;
+    background-color: grey;
+}
+
+.sapUiTableHdrTitle {
+    color: white;
+}
+
+.sapMBtnContent {
+    color: black !important;
+    background-color: white !important;
+}
+
+.sapMBtnInner.sapMBtnText {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sapMBtnText > .sapMBtnIcon {
+    color: black;
+    background-color: white;
+}
+
+.sapUiFormToolbar {
+    background-color: grey;
+}
+
+.sapUiTableHdr {
+    background-color: grey !important;
+}
+
+.page1 {
+    background-color: white;
+}
+
+.Notif_table,
+.Notif_read {
+    padding-left: 1px;
+}
+
+.Notif_table tr:nth-child(even) {
+    background-color: #d9d9d9;
+}
+
+.Notif_read tr:nth-child(even) {
+    background-color: #d9d9d9;
+}
+
+.Body {
+    background-color: white !important;
+}
